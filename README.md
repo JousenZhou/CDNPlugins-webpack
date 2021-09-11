@@ -18,7 +18,7 @@
 
 # Usage 
 
-<img align="left"   src="https://img.shields.io/badge/example-vue-green" >
+<img align="left"   src="https://img.shields.io/badge/example-vue-green" ><br>
 
 
 ```js
@@ -38,7 +38,9 @@ module.exports = {
                     {
                         name: 'vue',
                         externals: 'Vue',
-                        path: ['https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.min.js', 'https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.min.js']
+                        path: 
+                        ['https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.min.js',
+                        'https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.min.js']
                     }
                 ]
             })
